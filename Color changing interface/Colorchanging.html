@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Color changing interface</title>
+        <style>
+            .buttonY{
+                padding: 10px 20px;
+                font-size: 16px;
+                border-radius: 50% ;
+                color: purple;
+                cursor: pointer;
+                height: 200px;
+                width: 200px;
+                border: 4px solid purple;
+                transition: background-color 0.5s ease-in-out;
+            }
+
+            .buttonR{
+                padding: 10px 20px;
+                font-size: 16px;
+                border-radius: 50% ;
+                color: red;
+                cursor: pointer;
+                height: 200px;
+                width: 200px;
+                border: 4px solid red;
+                transition: background-color 0.5s ease-in-out;
+            }
+
+            .buttonB{
+                padding: 10px 20px;
+                font-size: 16px;
+                border-radius: 50% ;
+                color: blue;
+                cursor: pointer;
+                height: 200px;
+                width: 200px;
+                border: 4px solid blue;
+                transition: background-color 0.5s ease-in-out;
+            }
+
+            .buttonG{
+                padding: 10px 20px;
+                font-size: 16px;
+                border-radius: 50% ;
+                color: green;
+                cursor: pointer;
+                height: 200px;
+                width: 200px;
+                border: 4px solid green;
+                transition: background-color 0.5s ease-in-out;
+            }
+
+            .buttonBR{
+                padding: 10px 20px;
+                font-size: 16px;
+                border-radius: 50% ;
+                color: brown;
+                cursor: pointer;
+                height: 200px;
+                width: 200px;
+                border: 4px solid brown;
+                transition: background-color 0.5s ease-in-out;
+            }
+
+            .buttonBL{
+                padding: 10px 20px;
+                font-size: 16px;
+                border-radius: 50% ;
+                color: black;
+                cursor: pointer;
+                height: 200px;
+                width: 200px;
+                border: 4px solid black;
+                transition: background-color 0.5s ease-in-out;
+            }
+
+            .color{
+                padding-top: 100px;
+            }
+
+            h1{
+                margin-bottom: 50px;
+            }
+
+        </style>
+    </head>
+    <body>
+        
+        <center><div class="color">
+            <h1>Colour Changing Interface</h1>
+         <button onclick="Purple()" class="buttonY"><h1>Purple</h1></button>
+         <button onclick="Red()" class="buttonR"><h1>Red</h1></button>
+         <button onclick="Blue()" class="buttonB"><h1>Blue</h1></button>
+        </div>
+    </center>
+
+    <center>
+       <div class="color">
+        <button onclick="Green()" class="buttonG"><h1>Green</h1></button>
+        <button onclick="Black()" class="buttonBL"><h1>Black</h1></button>
+        <button onclick="Brown()" class="buttonBR"><h1>Brown</h1></button>
+       </div>
+   </center>
+        
+
+        <script>
+            function Purple(){
+              document.body.style.background="purple";
+            }
+
+            function Red(){
+              document.body.style.background="red";
+            }
+
+            function Blue(){
+              document.body.style.background="blue";
+            }
+
+            function Green(){
+              document.body.style.background="green";
+            }
+
+            function Brown(){
+              document.body.style.background="brown";
+            }
+
+            function Black(){
+              document.body.style.background="black";
+            }
+        </script>
+    </body>
+</html>
